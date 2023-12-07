@@ -33,3 +33,31 @@ const hobbie4 = 'Volar'
 const boddies = 'Mis hobbies son: '.concat(hobbie1, ', ',hobbie2, ', ',hobbie1, ', ',hobbie4)
 
 console.log(boddies)
+
+//Caracteres de escape
+//const whatDoIDo = 'I'm Software Engineer'
+
+//1. Escape alternativo
+const escapeAlternativo = "I'm Software Engineer"
+
+//2. Barra invertida
+const barraInvertida = 'I\'m Software Engineer'
+
+//3. Template literals
+const escapeConComillaInvertida = `I'm Software Engineer`
+
+//Escritura de strings largos
+
+const poema = 'Lorem Ipsum es simplemente el texto de relleno de las imprentas\n' + 'y archivos de texto. Lorem Ipsum ha sido el texto de relleno\n' + 'estándar de las industrias desde el año 1500\n'
+
+console.log(poema)
+
+const poema2 = 'Lorem Ipsum es simplemente el texto de relleno de las imprentas\n\y archivos de texto. Lorem Ipsum ha sido el texto de relleno\n\estándar de las industrias desde el año 1500\n'
+
+console.log(poema2)
+
+const poema3 = `Lorem Ipsum es simplemente el texto de relleno de las imprentas
+y archivos de texto. Lorem Ipsum ha sido el texto de relleno
+estándar de las industrias desde el año 1500`
+
+console.log(poema3)
