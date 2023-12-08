@@ -12,10 +12,9 @@ console.log(!!name)
 
 //Conversión explícita
 const value = 0
-const otherValue = 41
+const otherValue = -41
 const explicitBoolean = Boolean(value)
 const explicitBoolean2 = Boolean(otherValue)
 
 console.log(explicitBoolean)
 console.log(explicitBoolean2)
-
